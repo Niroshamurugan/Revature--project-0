@@ -1,0 +1,91 @@
+h1{
+	font-family:"Comic Sans MS", cursive, sans-serif; 
+}
+body{
+	color:black;
+        background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeqVXYugvvrwN9ruOiLiQ2y5m2DAimiVKJnacucaF6ExRq48iv6bzbVYQAd3ZF4xBBJUc&usqp=CAU');
+        background-position:center;
+        background-repeat: no-repeat;
+	background-color:none;
+	left-margin:10px;
+	right-margin:10px;
+}
+table{
+	width:95%;
+	border-collapse:collapse;
+	table-layout:fixed;
+}
+td
+{
+	border: rgba(127, 62, 108, 1) 2px solid;
+	word-wrap:break-word;
+}
+table#close{
+
+	table-layout:default;
+	border-collapse:seperate;
+	border-spacing: 5px 5px;
+	border:none;
+	vertical-align:top;
+}
+table.none
+{
+	border:none;
+	vertical-align:top;
+}
+table.none td
+{
+	border: none;
+}
+tr.row td{
+	text-decoration:italic;
+}
+th.status{
+	width:5%;
+}
+th.name{
+	width:20%;
+}
+th.des{
+	width:40%;
+	padding:5px 5px 5px 5px;
+}
+th.date{
+	width:8%;
+}
+th.pr{
+	width:7%;
+}
+th.func1{
+	width:6%;
+}
+th.func2{
+	width:5%;
+}
+input[type=submit] {
+    width: 20em;  height: 2em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a.active {
+    background-color: #4CAF50;
+}
+li a:hover {
+    background-color: #255;
+}
+
