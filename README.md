@@ -2,15 +2,13 @@
 
 ## TO-DO-LIST
 
-To-Do-List is made with Flask and MongoDB. Dockerfile is also available to make docker image and docker containers.
-
 Instructions
 
-## Download python from https://www.python.org/downloads/
+### Download python from https://www.python.org/downloads/
 
-## Download MongoDB from https://www.mongodb.com/download-center#community
+### Download MongoDB from https://www.mongodb.com/download-center#community
 
-## Install Flask & pymongo
+### Install Flask & pymongo
 
   pip install Flask
 
